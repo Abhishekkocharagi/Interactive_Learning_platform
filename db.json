@@ -1,0 +1,136 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "JavaScript Fundamentals",
+      "description": "Learn the basics of JavaScript programming language",
+      "image": "./javascipt.jpg",
+      "category": "Programming",
+      "level": "Beginner",
+      "duration": "6 weeks",
+      "instructor": "John Doe",
+      "rating": 4.8,
+      "studentsEnrolled": 1250,
+      "price": 49.99,
+      "lessons": 12,
+      "hours": 20
+    },
+    {
+      "id": 2,
+      "title": "React Development",
+      "description": "Master React.js and build modern web applications",
+      "image": "./react.jpg",
+      "category": "Web Development",
+      "level": "Intermediate",
+      "duration": "8 weeks",
+      "instructor": "Jane Smith",
+      "rating": 4.9,
+      "studentsEnrolled": 890,
+      "price": 79.99,
+      "lessons": 15,
+      "hours": 32
+    },
+    {
+      "id": 3,
+      "title": "Python for Beginners",
+      "description": "Start your programming journey with Python",
+      "image": "./python.jpg",
+      "category": "Programming",
+      "level": "Beginner",
+      "duration": "5 weeks",
+      "instructor": "Mike Johnson",
+      "rating": 4.7,
+      "studentsEnrolled": 2100,
+      "price": 39.99,
+      "lessons": 10,
+      "hours": 18
+    },
+    {
+      "id": 4,
+      "title": "Data Science with Python",
+      "description": "Learn data analysis, visualization, and machine learning",
+      "image": "",
+      "category": "Data Science",
+      "level": "Advanced",
+      "duration": "12 weeks",
+      "instructor": "Dr. Sarah Wilson",
+      "rating": 4.9,
+      "studentsEnrolled": 650,
+      "price": 129.99,
+      "lessons": 20,
+      "hours": 45
+    },
+    {
+      "id": 5,
+      "title": "Web Design Essentials",
+      "description": "Create beautiful and responsive websites",
+      "image": "https://picsum.photos/400/250?random=5",
+      "category": "Design",
+      "level": "Beginner",
+      "duration": "4 weeks",
+      "instructor": "Emma Davis",
+      "rating": 4.6,
+      "studentsEnrolled": 1800,
+      "price": 34.99,
+      "lessons": 8,
+      "hours": 16
+    },
+    {
+      "id": 6,
+      "title": "Mobile App Development",
+      "description": "Build iOS and Android apps with React Native",
+      "image": "https://picsum.photos/400/250?random=6",
+      "category": "Mobile Development",
+      "level": "Intermediate",
+      "duration": "10 weeks",
+      "instructor": "Alex Chen",
+      "rating": 4.8,
+      "studentsEnrolled": 720,
+      "price": 99.99,
+      "lessons": 18,
+      "hours": 38
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Demo User",
+      "email": "demo@example.com",
+      "enrolledCourses": [1, 2, 3],
+      "completedCourses": [1],
+      "joinDate": "2024-01-15"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Programming",
+      "icon": "💻",
+      "courseCount": 45
+    },
+    {
+      "id": 2,
+      "name": "Web Development",
+      "icon": "🌐",
+      "courseCount": 32
+    },
+    {
+      "id": 3,
+      "name": "Data Science",
+      "icon": "📊",
+      "courseCount": 28
+    },
+    {
+      "id": 4,
+      "name": "Design",
+      "icon": "🎨",
+      "courseCount": 23
+    },
+    {
+      "id": 5,
+      "name": "Mobile Development",
+      "icon": "📱",
+      "courseCount": 19
+    }
+  ]
+}

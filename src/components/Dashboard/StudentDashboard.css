@@ -1,0 +1,256 @@
+.dashboard-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.welcome-message h1 {
+  color: #2c3e50;
+  margin-bottom: 8px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.welcome-message p {
+  color: #7f8c8d;
+  font-size: 18px;
+  margin: 0;
+}
+
+.progress-summary {
+  display: flex;
+  gap: 20px;
+}
+
+.progress-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  min-width: 140px;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.progress-card h3 {
+  margin: 0 0 15px 0;
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.progress-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+  border: 3px solid rgba(255,255,255,0.3);
+}
+
+.dashboard-content {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 30px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.progress-chart-container {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.progress-chart-container h3 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.chart-wrapper {
+  position: relative;
+  height: 250px;
+}
+
+.quick-stats {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.quick-stats h3 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.stat-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 14px;
+}
+
+.stat-item:last-child {
+  border-bottom: none;
+}
+
+.stat-item span:first-child {
+  color: #666;
+}
+
+.stat-item span:last-child {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.filters-section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.difficulty-filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.difficulty-filter label {
+  color: #2c3e50;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.difficulty-filter select {
+  padding: 12px 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 14px;
+  background: white;
+  color: #2c3e50;
+  cursor: pointer;
+}
+
+.courses-section {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.courses-section h2 {
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.welcome-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.welcome-section h1 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.welcome-section p {
+  color: #7f8c8d;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dashboard-header {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .dashboard-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .filters-section {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .lesson-navigation {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .course-header .enroll-btn {
+    position: static;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard-container {
+    padding: 10px;
+  }
+  
+  .dashboard-header,
+  .progress-chart-container,
+  .quick-stats,
+  .filters-section,
+  .courses-section {
+    padding: 20px;
+  }
+  
+  .welcome-message h1 {
+    font-size: 24px;
+  }
+  
+  .course-header {
+    padding: 30px 20px;
+  }
+  
+  .lesson-content {
+    padding: 20px;
+  }
+}

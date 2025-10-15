@@ -1,0 +1,102 @@
+.course-detail {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.course-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 40px;
+  position: relative;
+}
+
+.back-link {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 20px;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: white;
+}
+
+.course-info h1 {
+  font-size: 32px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.course-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.course-meta {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.course-meta span {
+  background: rgba(255,255,255,0.2);
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.enroll-btn {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.lessons-list {
+  padding: 40px;
+}
+
+.lessons-list h2 {
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.lesson-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  transition: all 0.3s ease;
+}
+
+.lesson-item:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+.lesson-info h3 {
+  color: #2c3e50;
+  margin-bottom: 6px;
+  font-size: 18px;
+}
+
+.lesson-info p {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
