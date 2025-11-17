@@ -1,0 +1,275 @@
+.course-syllabus {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.syllabus-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.syllabus-header h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.syllabus-subtitle {
+  color: #7f8c8d;
+  font-size: 1.1rem;
+}
+
+.syllabus-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.week-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border-left: 4px solid #e0e0e0;
+}
+
+.week-card.completed {
+  border-left-color: #27ae60;
+  background: linear-gradient(to right, #f0fff4 0%, white 10%);
+}
+
+.week-card.current {
+  border-left-color: #3498db;
+  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.2);
+}
+
+.week-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.week-header:hover {
+  background: #f8f9fa;
+}
+
+.week-title-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.week-number {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.week-card.completed .week-number {
+  background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+}
+
+.week-card.current .week-number {
+  background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.week-info h3 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #2c3e50;
+}
+
+.week-meta {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  display: block;
+}
+
+.week-status {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.status-badge {
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.status-badge.current {
+  background: #e3f2fd;
+  color: #2980b9;
+}
+
+.status-badge.completed {
+  background: #e8f5e9;
+  color: #27ae60;
+}
+
+.expand-icon {
+  font-size: 0.8rem;
+  transition: transform 0.3s ease;
+  color: #7f8c8d;
+}
+
+.expand-icon.open {
+  transform: rotate(180deg);
+}
+
+.week-details {
+  padding: 0 20px 20px 20px;
+  border-top: 1px solid #ecf0f1;
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.detail-section {
+  margin-top: 20px;
+}
+
+.detail-section h4 {
+  color: #2c3e50;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.topics-list,
+.objectives-list,
+.assignments-list {
+  list-style: none;
+  padding: 0;
+}
+
+.topics-list li,
+.objectives-list li,
+.assignments-list li {
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 3px solid #3498db;
+}
+
+.objectives-list li {
+  border-left-color: #9b59b6;
+}
+
+.assignments-list li {
+  border-left-color: #e67e22;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.week-extras {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.extra-item {
+  padding: 12px 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.extra-item.quiz {
+  background: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeaa7;
+}
+
+.extra-item.project {
+  background: #d1ecf1;
+  color: #0c5460;
+  border: 1px solid #bee5eb;
+}
+
+.extra-item .icon {
+  font-size: 1.2rem;
+}
+
+.progress-summary {
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 12px;
+}
+
+.progress-bar-container {
+  height: 12px;
+  background: #e0e0e0;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  transition: width 0.5s ease;
+  border-radius: 20px;
+}
+
+.progress-text {
+  color: #7f8c8d;
+  font-size: 1rem;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .week-title-section {
+    gap: 15px;
+  }
+
+  .week-number {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .week-info h3 {
+    font-size: 1.1rem;
+  }
+}

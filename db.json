@@ -13,7 +13,207 @@
       "studentsEnrolled": 1250,
       "price": 49.99,
       "lessons": 12,
-      "hours": 20
+      "hours": 20,
+      "syllabus": [
+        {
+          "week": 1,
+          "title": "Introduction to JavaScript",
+          "topics": [
+            "What is JavaScript?",
+            "Setting up development environment",
+            "Variables and Data Types",
+            "Console and debugging basics"
+          ],
+          "learningObjectives": [
+            "Understand JavaScript's role in web development",
+            "Write your first JavaScript program",
+            "Master basic syntax and data types"
+          ],
+          "assignments": ["Setup development environment", "Create variables exercise"],
+          "quiz": true
+        },
+        {
+          "week": 2,
+          "title": "Control Flow and Operators",
+          "topics": [
+            "Conditional statements (if/else)",
+            "Comparison and logical operators",
+            "Switch statements",
+            "Ternary operators"
+          ],
+          "learningObjectives": [
+            "Make decisions in code using conditionals",
+            "Use operators effectively",
+            "Write cleaner code with switch statements"
+          ],
+          "assignments": ["Grade calculator project", "Even/Odd checker"],
+          "quiz": true
+        },
+        {
+          "week": 3,
+          "title": "Loops and Iteration",
+          "topics": [
+            "For loops",
+            "While and Do-While loops",
+            "Loop control (break/continue)",
+            "Nested loops"
+          ],
+          "learningObjectives": [
+            "Iterate through data efficiently",
+            "Choose appropriate loop types",
+            "Solve pattern problems"
+          ],
+          "assignments": ["Multiplication table generator", "Pattern printing"],
+          "quiz": true
+        },
+        {
+          "week": 4,
+          "title": "Functions and Scope",
+          "topics": [
+            "Function declaration and expression",
+            "Parameters and arguments",
+            "Return values",
+            "Scope and closures",
+            "Arrow functions"
+          ],
+          "learningObjectives": [
+            "Create reusable code with functions",
+            "Understand scope and closures",
+            "Use modern ES6 arrow functions"
+          ],
+          "assignments": ["Calculator function", "Temperature converter"],
+          "quiz": true
+        },
+        {
+          "week": 5,
+          "title": "Arrays and Array Methods",
+          "topics": [
+            "Array basics and manipulation",
+            "Array methods (push, pop, shift, unshift)",
+            "Higher-order functions (map, filter, reduce)",
+            "Spread and destructuring"
+          ],
+          "learningObjectives": [
+            "Work with collections of data",
+            "Master array manipulation",
+            "Use functional programming concepts"
+          ],
+          "assignments": ["Todo list array operations", "Student grade analyzer"],
+          "quiz": true
+        },
+        {
+          "week": 6,
+          "title": "Objects and DOM Manipulation",
+          "topics": [
+            "Objects and properties",
+            "Methods and this keyword",
+            "Document Object Model (DOM)",
+            "Event handling",
+            "Final project preparation"
+          ],
+          "learningObjectives": [
+            "Create and manipulate objects",
+            "Interact with web pages",
+            "Handle user events"
+          ],
+          "assignments": ["Interactive web page project"],
+          "quiz": true,
+          "finalProject": true
+        }
+      ],
+      "materials": [
+        {
+          "id": 1,
+          "type": "pdf",
+          "title": "JavaScript Basics Reference Guide",
+          "description": "Comprehensive reference for all basic concepts",
+          "size": "2.5 MB",
+          "url": "/materials/js-basics-guide.pdf",
+          "downloadable": true
+        },
+        {
+          "id": 2,
+          "type": "video",
+          "title": "Setup Your Development Environment",
+          "description": "Step-by-step video guide for VS Code setup",
+          "duration": "15 mins",
+          "url": "/materials/setup-video.mp4"
+        },
+        {
+          "id": 3,
+          "type": "code",
+          "title": "Practice Exercises Repository",
+          "description": "GitHub repo with 50+ practice problems",
+          "url": "https://github.com/exercises/js-fundamentals"
+        },
+        {
+          "id": 4,
+          "type": "cheatsheet",
+          "title": "JavaScript Syntax Cheatsheet",
+          "description": "Quick reference for common syntax patterns",
+          "size": "500 KB",
+          "url": "/materials/js-cheatsheet.pdf",
+          "downloadable": true
+        }
+      ],
+      "readings": [
+        {
+          "id": 1,
+          "week": 1,
+          "title": "MDN: JavaScript First Steps",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps",
+          "type": "required",
+          "estimatedTime": "30 mins"
+        },
+        {
+          "id": 2,
+          "week": 1,
+          "title": "JavaScript.info: Introduction",
+          "url": "https://javascript.info/intro",
+          "type": "required",
+          "estimatedTime": "20 mins"
+        },
+        {
+          "id": 3,
+          "week": 2,
+          "title": "Eloquent JavaScript - Chapter 2",
+          "url": "https://eloquentjavascript.net/02_program_structure.html",
+          "type": "recommended",
+          "estimatedTime": "45 mins"
+        },
+        {
+          "id": 4,
+          "week": 3,
+          "title": "MDN: Loops and Iteration",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration",
+          "type": "required",
+          "estimatedTime": "25 mins"
+        },
+        {
+          "id": 5,
+          "week": 4,
+          "title": "Understanding Closures",
+          "url": "https://javascript.info/closure",
+          "type": "required",
+          "estimatedTime": "40 mins"
+        },
+        {
+          "id": 6,
+          "week": 5,
+          "title": "Array Methods Deep Dive",
+          "url": "https://javascript.info/array-methods",
+          "type": "required",
+          "estimatedTime": "50 mins"
+        }
+      ],
+      "prerequisites": [],
+      "learningOutcomes": [
+        "Write JavaScript code from scratch",
+        "Understand core programming concepts",
+        "Manipulate the DOM and handle events",
+        "Debug JavaScript applications",
+        "Build interactive web applications"
+      ]
     },
     {
       "id": 2,
@@ -28,7 +228,87 @@
       "studentsEnrolled": 890,
       "price": 79.99,
       "lessons": 15,
-      "hours": 32
+      "hours": 32,
+      "syllabus": [
+        {
+          "week": 1,
+          "title": "React Fundamentals",
+          "topics": [
+            "Introduction to React",
+            "JSX Syntax",
+            "Components and Props",
+            "Setting up React environment"
+          ],
+          "learningObjectives": [
+            "Understand React philosophy",
+            "Create functional components",
+            "Use JSX effectively"
+          ],
+          "assignments": ["Create first React app", "Build component library"],
+          "quiz": true
+        },
+        {
+          "week": 2,
+          "title": "State and Lifecycle",
+          "topics": [
+            "useState Hook",
+            "Component lifecycle",
+            "Event handling in React",
+            "Controlled components"
+          ],
+          "learningObjectives": [
+            "Manage component state",
+            "Handle user interactions",
+            "Create controlled forms"
+          ],
+          "assignments": ["Counter app", "Form with validation"],
+          "quiz": true
+        }
+      ],
+      "materials": [
+        {
+          "id": 1,
+          "type": "pdf",
+          "title": "React Best Practices Guide",
+          "description": "Industry-standard patterns and practices",
+          "size": "3.2 MB",
+          "url": "/materials/react-best-practices.pdf",
+          "downloadable": true
+        },
+        {
+          "id": 2,
+          "type": "code",
+          "title": "React Starter Templates",
+          "description": "Collection of boilerplate projects",
+          "url": "https://github.com/templates/react-starters"
+        }
+      ],
+      "readings": [
+        {
+          "id": 1,
+          "week": 1,
+          "title": "Official React Documentation",
+          "url": "https://react.dev",
+          "type": "required",
+          "estimatedTime": "60 mins"
+        },
+        {
+          "id": 2,
+          "week": 2,
+          "title": "Thinking in React",
+          "url": "https://react.dev/learn/thinking-in-react",
+          "type": "required",
+          "estimatedTime": "30 mins"
+        }
+      ],
+      "prerequisites": ["JavaScript Fundamentals", "HTML & CSS"],
+      "learningOutcomes": [
+        "Build complete React applications",
+        "Manage complex application state",
+        "Implement routing and navigation",
+        "Optimize React performance",
+        "Deploy React applications"
+      ]
     },
     {
       "id": 3,
@@ -43,52 +323,16 @@
       "studentsEnrolled": 2100,
       "price": 39.99,
       "lessons": 10,
-      "hours": 18
-    },
-    {
-      "id": 4,
-      "title": "Data Science with Python",
-      "description": "Learn data analysis, visualization, and machine learning",
-      "image": "",
-      "category": "Data Science",
-      "level": "Advanced",
-      "duration": "12 weeks",
-      "instructor": "Dr. Sarah Wilson",
-      "rating": 4.9,
-      "studentsEnrolled": 650,
-      "price": 129.99,
-      "lessons": 20,
-      "hours": 45
-    },
-    {
-      "id": 5,
-      "title": "Web Design Essentials",
-      "description": "Create beautiful and responsive websites",
-      "image": "https://picsum.photos/400/250?random=5",
-      "category": "Design",
-      "level": "Beginner",
-      "duration": "4 weeks",
-      "instructor": "Emma Davis",
-      "rating": 4.6,
-      "studentsEnrolled": 1800,
-      "price": 34.99,
-      "lessons": 8,
-      "hours": 16
-    },
-    {
-      "id": 6,
-      "title": "Mobile App Development",
-      "description": "Build iOS and Android apps with React Native",
-      "image": "https://picsum.photos/400/250?random=6",
-      "category": "Mobile Development",
-      "level": "Intermediate",
-      "duration": "10 weeks",
-      "instructor": "Alex Chen",
-      "rating": 4.8,
-      "studentsEnrolled": 720,
-      "price": 99.99,
-      "lessons": 18,
-      "hours": 38
+      "hours": 18,
+      "syllabus": [],
+      "materials": [],
+      "readings": [],
+      "prerequisites": [],
+      "learningOutcomes": [
+        "Write Python programs",
+        "Understand programming fundamentals",
+        "Work with data structures"
+      ]
     }
   ],
   "users": [
@@ -96,9 +340,252 @@
       "id": 1,
       "name": "Demo User",
       "email": "demo@example.com",
-      "enrolledCourses": [1, 2, 3],
+      "phone": "+1 234 567 8900",
+      "address": "123 Main St, City, State 12345",
+      "emergencyContact": "+1 234 567 8901",
+      "enrolledCourses": [1, 2],
       "completedCourses": [1],
-      "joinDate": "2024-01-15"
+      "joinDate": "2024-01-15",
+      "status": "active",
+      "courseProgress": [
+        {
+          "courseId": 1,
+          "currentWeek": 3,
+          "completedWeeks": [1, 2],
+          "completedReadings": [1, 2, 4],
+          "downloadedMaterials": [1, 4],
+          "quizScores": [
+            { "week": 1, "score": 85 },
+            { "week": 2, "score": 92 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "+1 555 123 4567",
+      "address": "456 Oak Ave, Town, State 54321",
+      "emergencyContact": "+1 555 123 4568",
+      "enrolledCourses": [2, 3],
+      "completedCourses": [],
+      "joinDate": "2024-02-20",
+      "status": "active",
+      "courseProgress": []
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "email": "bob@example.com",
+      "phone": "+1 555 987 6543",
+      "address": "789 Pine Rd, Village, State 67890",
+      "emergencyContact": "+1 555 987 6544",
+      "enrolledCourses": [1],
+      "completedCourses": [],
+      "joinDate": "2024-03-10",
+      "status": "inactive",
+      "courseProgress": []
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "Week 1 Quiz - JavaScript Basics",
+      "courseId": 1,
+      "week": 1,
+      "duration": 30,
+      "passingScore": 70,
+      "totalPoints": 100,
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is JavaScript?",
+          "options": [
+            "A programming language",
+            "A coffee brand",
+            "A markup language",
+            "A database"
+          ],
+          "correctAnswer": 0,
+          "points": 10
+        },
+        {
+          "id": 2,
+          "question": "Which keyword is used to declare a variable in JavaScript?",
+          "options": [
+            "var",
+            "int",
+            "string",
+            "variable"
+          ],
+          "correctAnswer": 0,
+          "points": 10
+        },
+        {
+          "id": 3,
+          "question": "What does DOM stand for?",
+          "options": [
+            "Data Object Model",
+            "Document Object Model",
+            "Digital Orientation Method",
+            "Document Optimization Module"
+          ],
+          "correctAnswer": 1,
+          "points": 10
+        },
+        {
+          "id": 4,
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "/* */",
+            "#",
+            "--"
+          ],
+          "correctAnswer": 0,
+          "points": 10
+        },
+        {
+          "id": 5,
+          "question": "What is the correct way to write a JavaScript array?",
+          "options": [
+            "var colors = (1:'red', 2:'green', 3:'blue')",
+            "var colors = ['red', 'green', 'blue']",
+            "var colors = 'red', 'green', 'blue'",
+            "var colors = {red, green, blue}"
+          ],
+          "correctAnswer": 1,
+          "points": 10
+        },
+        {
+          "id": 6,
+          "question": "Which method is used to write output in the console?",
+          "options": [
+            "console.write()",
+            "console.print()",
+            "console.log()",
+            "console.output()"
+          ],
+          "correctAnswer": 2,
+          "points": 10
+        },
+        {
+          "id": 7,
+          "question": "What is the result of: 2 + '2' in JavaScript?",
+          "options": [
+            "4",
+            "22",
+            "Error",
+            "NaN"
+          ],
+          "correctAnswer": 1,
+          "points": 10
+        },
+        {
+          "id": 8,
+          "question": "Which operator is used to assign a value to a variable?",
+          "options": [
+            "x",
+            "=",
+            "==",
+            "*"
+          ],
+          "correctAnswer": 1,
+          "points": 10
+        },
+        {
+          "id": 9,
+          "question": "How do you create a function in JavaScript?",
+          "options": [
+            "function myFunction()",
+            "create myFunction()",
+            "function:myFunction()",
+            "def myFunction()"
+          ],
+          "correctAnswer": 0,
+          "points": 10
+        },
+        {
+          "id": 10,
+          "question": "What is the correct syntax for referring to an external script?",
+          "options": [
+            "<script src='xxx.js'>",
+            "<script href='xxx.js'>",
+            "<script name='xxx.js'>",
+            "<script file='xxx.js'>"
+          ],
+          "correctAnswer": 0,
+          "points": 10
+        }
+      ],
+      "createdAt": "2024-01-20T10:00:00Z",
+      "updatedAt": "2024-01-20T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Week 2 Quiz - Control Flow",
+      "courseId": 1,
+      "week": 2,
+      "duration": 25,
+      "passingScore": 70,
+      "totalPoints": 80,
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is an if statement used for?",
+          "options": [
+            "To declare variables",
+            "To make decisions in code",
+            "To create loops",
+            "To define functions"
+          ],
+          "correctAnswer": 1,
+          "points": 10
+        },
+        {
+          "id": 2,
+          "question": "Which operator compares both value and type?",
+          "options": [
+            "==",
+            "=",
+            "===",
+            "!="
+          ],
+          "correctAnswer": 2,
+          "points": 10
+        },
+        {
+          "id": 3,
+          "question": "What does the 'else' statement do?",
+          "options": [
+            "Ends the program",
+            "Executes when the if condition is false",
+            "Creates a loop",
+            "Declares a variable"
+          ],
+          "correctAnswer": 1,
+          "points": 10
+        }
+      ],
+      "createdAt": "2024-01-25T10:00:00Z",
+      "updatedAt": "2024-01-25T10:00:00Z"
+    }
+  ],
+  "quizResults": [
+    {
+      "id": 1,
+      "userId": 1,
+      "quizId": 1,
+      "score": 85,
+      "totalPoints": 100,
+      "passed": true,
+      "answers": [
+        { "questionId": 1, "selectedAnswer": 0, "correct": true },
+        { "questionId": 2, "selectedAnswer": 0, "correct": true }
+      ],
+      "completedAt": "2024-02-01T14:30:00Z",
+      "timeSpent": 1800
     }
   ],
   "categories": [
@@ -131,6 +618,15 @@
       "name": "Mobile Development",
       "icon": "📱",
       "courseCount": 19
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "role": "super_admin",
+      "permissions": ["all"]
     }
   ]
 }

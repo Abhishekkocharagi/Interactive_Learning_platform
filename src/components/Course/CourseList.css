@@ -1,4 +1,4 @@
-/* /* src/components/Courses/CourseList.css
+ /* src/components/Courses/CourseList.css */
 .course-list-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -219,4 +219,4 @@
   .enroll-btn {
     width: 100%;
   }
-}  */ 
+}  
