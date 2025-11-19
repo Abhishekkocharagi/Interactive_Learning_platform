@@ -128,7 +128,7 @@
           "title": "JavaScript Basics Reference Guide",
           "description": "Comprehensive reference for all basic concepts",
           "size": "2.5 MB",
-          "url": "/materials/js-basics-guide.pdf",
+          "url": "./document.pdf",
           "downloadable": true
         },
         {
@@ -137,14 +137,14 @@
           "title": "Setup Your Development Environment",
           "description": "Step-by-step video guide for VS Code setup",
           "duration": "15 mins",
-          "url": "/materials/setup-video.mp4"
+          "url": "https://www.youtube.com/watch?v=pYEaF0DjZps"
         },
         {
           "id": 3,
           "type": "code",
           "title": "Practice Exercises Repository",
           "description": "GitHub repo with 50+ practice problems",
-          "url": "https://github.com/exercises/js-fundamentals"
+          "url": "https://github.com/topics/javascript-exercises"
         },
         {
           "id": 4,
@@ -152,7 +152,7 @@
           "title": "JavaScript Syntax Cheatsheet",
           "description": "Quick reference for common syntax patterns",
           "size": "500 KB",
-          "url": "/materials/js-cheatsheet.pdf",
+          "url": "./document.pdf",
           "downloadable": true
         }
       ],
