@@ -11,7 +11,7 @@
       "instructor": "John Doe",
       "rating": 4.8,
       "studentsEnrolled": 1250,
-      "price": 49.99,
+      "price": 0.0,
       "lessons": 12,
       "hours": 20,
       "syllabus": [
@@ -226,7 +226,7 @@
       "instructor": "Jane Smith",
       "rating": 4.9,
       "studentsEnrolled": 890,
-      "price": 79.99,
+      "price": 0.0,
       "lessons": 15,
       "hours": 32,
       "syllabus": [
@@ -280,7 +280,7 @@
           "type": "code",
           "title": "React Starter Templates",
           "description": "Collection of boilerplate projects",
-          "url": "https://github.com/templates/react-starters"
+          "url": "https://vercel.com/templates/react"
         }
       ],
       "readings": [
